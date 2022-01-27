@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #D0D5DB;
+ 
+    height: 140px;
+}
+
+
+.container-grid {
+   width: 100%;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: #04A596;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 0 0 0 35px;
+    font-weight: bold;
+  
+  
+
+  
+}
+
+.menu {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+
+  
+}
+
+.logo{
+    margin: 0 80px;
+}
+
+
+.texto-banner{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color:#04A596;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link  {
+    color: #04A596;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;   
+    display:flex;
+    width: 500px;
+    top: 10px;
+    cursor: pointer;
+    background-color: #D0D5DB;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.link-click {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.link:hover{
+    transition: 0.2s;
+    filter: brightness(0.8);
+}
+
+
+.plataformas {
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+footer{
+    background-color: black;
+    padding: 90px;
+    margin-top: 30px;
+    
+}
+
+.menu-barras {
+    width: 30px;
+    display: none;
+}
+
+
+
+@media screen  and (max-width: 1200px){
+    .container-grid{
+        width: 90%;
+    }
+    .menu a {
+        font-size: 16px;
+    }
+    .logo {
+        width: 200px;
+    }
+ .banner {
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .foto-logo {
+     display: flex;
+    width: 300px;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 45px;
+     position: relative;
+     left: 30px;
+     
+ }
+    .menu a {
+        margin: 0 0 0 10px;
+        position: relative;
+        right: 130px;
+        margin-top: 45px;
+    }
+    .link-click {
+        display: flex;
+        justify-content: center;
+     }
+    p{
+        font-size: 12px;
+    }
+  
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    p {
+        color: blue;
+    }
+
+ 
+    .menu-barras {
+        display: inline-block;
+        position: relative;
+        left: 600px;
+        top: -70px;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+    }
+   
+}
