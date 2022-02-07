@@ -29,39 +29,76 @@
     <p>Aqui você disputará campeonatos super disputados entre outros pilotos no modo multiplayer.</p>
     <p>CordeiroPlays mundial de pilotos virtuais</p>
 </div>
+
 <div class="banner">
-    <img src="img/imagem4.png">
-    <img src="img/imagem3.jpg">
+    <img class="banner1"src="img/imagem4.png">
+    <img src="img/imagem3.jpg" >
 </div>
+
 <div class="link-click">
 <a class="link" href="">clique aqui e se inscreva</a>
 </div>
-<section class="plataformas-secao"></section>>
-    <div class="plataformas container-grid">
-        <a href=""><img src="img/logo-steam 1.png"></a>
-        <a href=""><img src="img/xbox 1.png"></a>
-        <a href=""><img src="img/ps5 1.png"></a>
-        <a href=""><img src="img/f1-logo.png"></a>
-    </div>
-</section>
+    <section></section>
+<div class="plataformas">
+   <a href=""><img src="img/ps5 1.png"></a>
+   <a href=""><img src="img/xbox 1.png"></a>
+   <a href=""><img src="img/logo-steam 1.png"></a>
+   <a href=""><img src="img/f1-logo.png"></a>
+</div>
+    </section>
 
 <footer>
-    
+    <div class="itens-rodape" >
+        <div class="lista1">
+        <ul id="menu-lista1">
+            <li><a href="">Fale Conosco</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Fórum</a></li>
+        </ul>
+    </div>
+            <div class="lista2">       
+        <ul>
+            <li><a href="">Dúvidas</a></li>
+            <li><a href="">Regras</a></li>
+            <li><a href="">Próximos Campeonatos</a></li>
+        </ul>
+    </div> 
+        <div class="foto-rodape">
+            <img src="img/imagem2.png">
+        </div>
+        <div class="sobre-rodape">
+            <a href="">Sobre a CordeiroPlays</a>
+        </div>
+        <div class="direitos-rodape">
+            <p>Todos os direitos reservados</p>
+        </div>
+
+        <div class="botao">
+        
+      <form class="enviar">
+            <input id="campo-email" type="email" placeholder="E-mail" required> 
+        </form>
+       
+        </div>
+    </div>
+<div>
+    <button onclick="enviarEmail()">Cadastrar</button>
+</div>
+
+
+
 </footer>
 
 
 
-    <script>
-let menu = document.getElementById("menu");
-    function mostrarMenu(){
-        if(menu.style.display != "flex"){
-            menu.style.display = "flex"
-        }
-        else{
-            menu.style.display = "none"
-        }
-    }
-    </script>
+
+
+<script src="js/script.js"></script>
+
+
+
+  
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>

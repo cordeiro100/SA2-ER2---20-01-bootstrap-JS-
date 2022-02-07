@@ -6,184 +6,359 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    height: 100vh;;
+    width: 100%;
+}
 
 
 header{
-    background-color: #D0D5DB;
- 
+   
+    width: 1920px;
     height: 140px;
+    background: silver;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+}
+
+.foto-logo {
+    width: 700px;
+    margin-top: 20px;
+}
+
+.foto-logo:hover {
+    transform: scale(1.1);
 }
 
 
-.container-grid {
-   width: 100%;
+
+nav   {
+    position: absolute;
+    top: 50px;
+    right: 0;
  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+.container-grid {
+    position: relative;
+    margin: 0 30px;
+   
+
 }
 
-.menu a{
+
+nav a {
+    position: relative;
+    right: 200px;
     color: #04A596;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    margin: 0 0 0 35px;
     font-weight: bold;
-  
-  
-
-  
+    margin: 0 0 0 15px;
+ }
+nav a:hover{
+    color: white;
+    
 }
 
-.menu {
-    width: 660px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
-
-  
-}
-
-.logo{
-    margin: 0 80px;
-}
-
-
-.texto-banner{
+p {
     font-size: 30px;
-    text-align: center;
-    margin-top: 20px;
-    color:#04A596;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-
-.banner{
-    display: flex;
-    margin-top: 30px;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.link  {
     color: #04A596;
-    text-decoration: none;
-    text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-weight: bold;   
-    display:flex;
-    width: 500px;
-    top: 10px;
-    cursor: pointer;
-    background-color: #D0D5DB;
-    border-radius: 8px;
-    padding: 10px;
+    font-weight: bold;
     text-align: center;
-    align-items: center;
-
+    margin-top: 30px;
 }
 
-.link-click {
+.banner {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
 }
 
 
-
-.link:hover{
-    transition: 0.2s;
-    filter: brightness(0.8);
-}
-
-
-.plataformas {
-    align-items: center;
-    margin-top: 30px;
-    
-}
-
-footer{
-    background-color: black;
-    padding: 90px;
-    margin-top: 30px;
-    
-}
 
 .menu-barras {
-    width: 30px;
     display: none;
 }
 
 
+.link {
+    color: #04A596;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: silver;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+}
 
-@media screen  and (max-width: 1200px){
-    .container-grid{
-        width: 90%;
-    }
-    .menu a {
-        font-size: 16px;
-    }
-    .logo {
-        width: 200px;
-    }
- .banner {
-     display: flex;
+
+
+.link-click {
+    text-align: center;
+    margin-top: 80px;
+ 
+ 
+}
+
+
+
+
+.plataformas {
+    display: flex;
+    margin-top: 100px;
+    
     justify-content: center;
-    flex-direction: column;
- }
- .foto-logo {
-     display: flex;
-    width: 300px;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     margin-top: 45px;
-     position: relative;
-     left: 30px;
-     
- }
-    .menu a {
-        margin: 0 0 0 10px;
-        position: relative;
-        right: 130px;
-        margin-top: 45px;
-    }
-    .link-click {
-        display: flex;
-        justify-content: center;
-     }
-    p{
-        font-size: 12px;
-    }
+    background-color: silver;
+    padding: 70px;
+    width: 1920px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+}
+
+.plataformas a {
+    margin: 0 200px;
+}
+
+footer {
+    background-color: black;
+    width: 1920px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px red, 0px 0px 10px silver;
+}
+
+
+footer a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+
+.itens-rodape {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.lista2 {
+    margin-left: 200px;
+}
+
+
+
+.lista1 a {
+    font-size: 10px;
+    width: 100px;
+    position: relative;
+    top: 10px;  
+    display: flex;
+
   
+}
+
+.lista2 a {
+    font-size: 10px;
+    width: 200px;
+    position: relative;
+    top: 10px;  
+    display: flex;
+}
+
+.foto-rodape {
+    margin-left: 200px;
+}
+
+.itens-rodape p {
+    color: silver;
+    font-size: 20px;
+    width: 400px;
+    text-transform: uppercase;
+    right: 350px;
+    position: relative;
+    top: 130px;
+}
+
+
+
+.sobre-rodape {
+    color:white;
+    font-size: 20px;
+    margin-left: 200px;
+    position: relative;
+    left: 100px;
+    width: 400px;
+  
+}
+
+.sobre-rodape a {
+    display: flex;
+    position: relative;
+    right: 130px;
+    width: 300px;
 
 }
 
 
 
 
-@media screen and (max-width: 768px){
-    p {
-        color: blue;
-    }
+.enviar {
+    position: relative;
+    right: 300px;
+    top: 30px;
+}
+
+
+input {
+    position: relative;
+    right: 200px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px;
+    top: 55px;
+}
+
+
+button {
+    display: flex;
+    position: relative;
+    left: 1730px;
+    top: -112px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px;
+}
+
 
  
-    .menu-barras {
-        display: inline-block;
+ 
+
+
+
+@media screen and (max-width: 1200px) {
+    header{
+        width: 1500px;
+    }
+    .foto-logo {
+        width: 450px;
         position: relative;
-        left: 600px;
-        top: -70px;
+        top: 20px;
+    }
+    nav  {
+        position: absolute;
+        right: 0;
+        top: 25px;
+    }
+    .container-grid {
+        position: relative;
+        
+    }
+    .menu a {
+        position: relative;
+        right: 10px;
+        top:25px;
+    }
+
+    p {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner {
+        width: 1500px;
+        flex-direction: column;
+        
+    }
+
+    .link-click {
+        position: relative;
+        left: 100px;
+    }
+
+    .plataformas {
+        width: 1500px;
+    }
+
+    .plataformas a {
+        margin: 0 95px;
+    }
+
+    footer {
+        width: 1500px;
+    }
+
+
+
+    .direitos-rodape {
+        position: relative;
+        right: 500px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    header{
+        width: 1280px;
+    }
+    .foto-logo {
+        width: 500px;
     }
     .menu {
         display: none;
         flex-direction: column;
-        width: 250px;
-        height: 250px;
     }
-   
+    .menu-barras {
+        display: flex;
+        width: 80px;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+        
+    }
+
+    
+    .banner {
+        width: 1280px;
+    }
+
+    .link-click {
+        position: relative;
+        right: 200px;
+    }
+      
+    .plataformas {
+        width: 1280px;
+    }
+
+    .plataformas img {
+        width: 40px;
+    }
+
+    footer {
+        width: 1280px;
+    
+       
+    }
+
+
+  #rodape-mestre a {
+      font-size: 12px;
+      position: relative;
+      top: 10px;
+
+  }
+  
 }
