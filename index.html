@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="renderizarNoticias()">
     <header>
         <div class="container-grid">
          
@@ -18,10 +18,10 @@
                 <a href="">Novidades</a>
                 <a href="">Ligas</a>
                 <a href="">Prêmios</a>
-                <a href="">Login</a>
+                <a href="cadastro.html">Login</a>
             </nav>
            </div>
-           <a href="" onclick="mostrarMenu()"><img class="menu-barras"src="img/menu.png" alt="barras"></a>
+           <a href="#"   id="barras"><img class="menu-barras" src="img/menu.png"></a>
     </header>
 </div>
 <div class="texto-banner">
@@ -29,16 +29,25 @@
     <p>Aqui você disputará campeonatos super disputados entre outros pilotos no modo multiplayer.</p>
     <p>CordeiroPlays mundial de pilotos virtuais</p>
 </div>
+<div id="carrosel" class="carrosel">
+    <img src="img/imagem3.jpg">
+    <img src="img/imagem4.png">
+    <img src="img/imagem5.jpg">
+    <img src="img/imagem6.jpg">
+    <img src="img/imagem7.jpg">
+</div>
 
-<div class="banner">
+
+
+<!-- <div class="banner">
     <img class="banner1"src="img/imagem4.png">
     <img src="img/imagem3.jpg" >
-</div>
+</div> -->
 
 <div class="link-click">
 <a class="link" href="">clique aqui e se inscreva</a>
 </div>
-    <section></section>
+    <section>
 <div class="plataformas">
    <a href=""><img src="img/ps5 1.png"></a>
    <a href=""><img src="img/xbox 1.png"></a>
@@ -47,51 +56,74 @@
 </div>
     </section>
 
-<footer>
-    <div class="itens-rodape" >
-        <div class="lista1">
-        <ul id="menu-lista1">
-            <li><a href="">Fale Conosco</a></li>
-            <li><a href="">Contato</a></li>
-            <li><a href="">Fórum</a></li>
-        </ul>
-    </div>
-            <div class="lista2">       
-        <ul>
-            <li><a href="">Dúvidas</a></li>
-            <li><a href="">Regras</a></li>
-            <li><a href="">Próximos Campeonatos</a></li>
-        </ul>
-    </div> 
-        <div class="foto-rodape">
-            <img src="img/imagem2.png">
+    <h1 class="titulo">Notícias</h1>
+   
+   
+    <div  class="noticias  "id="espaco-noticias">
+        <!-- <div class="noticia1">
+            <img src="img/f1-logo.png">
+            <h3>Max Verstappen</h3>
+            <p>Verstappen revela cãibras nos momentos finais do GP de Abu Dhabi: “Não aguentaria mais uma volta”</p>
         </div>
-        <div class="sobre-rodape">
-            <a href="">Sobre a CordeiroPlays</a>
-        </div>
-        <div class="direitos-rodape">
-            <p>Todos os direitos reservados</p>
-        </div>
-
-        <div class="botao">
         
-      <form class="enviar">
-            <input id="campo-email" type="email" placeholder="E-mail" required> 
-        </form>
-       
+         
+            
+        <div class="noticia2">
+            <img src="img/f1-logo.png">
+            <h3>Sergio Perez</h3>
+            <p>Pérez admite "dificuldade" em parceria com Verstappen após 2021 "de muita pressão"</p>
+           
         </div>
-    </div>
-<div>
-    <button onclick="enviarEmail()">Cadastrar</button>
-</div>
+        <div class="noticia3">
+            <img src="img/f1-logo.png">
+            <h3>Lewis Hamilton</h3>
+            <p>Lewis Hamilton volta às redes e divulga imagens de corrida por Londres</p>
+         
+        </div>
+        <div class="noticia4">
+            <img src="img/f1-logo.png">
+            <h3>Pierre Gasly</h3>
+            <p>Gasly elogia método de trabalho da Honda na F1</p>
+            
+        </div> -->
+         </div>
+         <footer>
+                <div class="rodape">
+             <div class="rodape1">
+                 <ul>
+                  <li><a href="">Fale Conosco</a></li>
+                   <li><a href="">Contato</a></li>
+                    <li><a href="">Fórum</a></li>
+                 </ul>
+             
+             </div>
+             <div class="rodape2">
+                 <ul>
+              <li><a href="">Dúvidas</a></li>
+              <li> <a href="">Regras</a></li> 
+              <li><a href="">Prêmios</a></li>
+            </ul>
+             </div>
+                <img src="img/imagem2.png">
+                <div class="sobre">
+                    <a href="">Sobre a CordeiroPlays</a>
+                    <form>
+                        <ul>
+                            <input id="campo-email" type="email" placeholder="Digite seu email">
+                            <button  onclick="enviarEmail()">Cadastrar</button>
+                        </ul>
+                    </form>
+                    <p>Todos os direitos reservados</p>
+                </div>
+            </div>
+
+         </footer>
 
 
 
-</footer>
 
 
-
-
+<script src="js/jquery-3.6.0.js"></script>
 
 <script src="js/script.js"></script>
 

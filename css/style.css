@@ -78,8 +78,20 @@ p {
     box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
 }
 
+#carrosel img {
+    display: none;
+}
 
+.banner-ativo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+    width: 1920px;
+    height: 600px;
 
+}
 .menu-barras {
     display: none;
 }
@@ -123,127 +135,210 @@ p {
     box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
 }
 
-.plataformas a {
-    margin: 0 200px;
-}
-
-footer {
-    background-color: black;
-    width: 1920px;
-    margin-bottom: 32px;
-    box-shadow: 0px 0px 30px red, 0px 0px 10px silver;
-}
-
-
-footer a {
-    color:white;
-    text-decoration: none;
-    text-transform: uppercase;
+.titulo {
+    display: flex;
+    color: #04A596;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
     
 }
 
-.itens-rodape {
+
+.plataformas a {
+    margin: 0 200px;
+    margin-top: 100px;
+    
+    justify-content: center;
+}
+
+
+.noticias {
+    justify-content: center;
+    align-items: center;
     display: flex;
-    justify-content: space-between;
-    width: 400px;
-}
-
-.lista2 {
-    margin-left: 200px;
+    margin-top: 30px;
+    width: 1920px;
 }
 
 
+.noticias h3 {
+    font-size: 15px;
+}
 
-.lista1 a {
-    font-size: 10px;
-    width: 100px;
-    position: relative;
-    top: 10px;  
+
+
+.noticias p {
+    font-size: 12px;
     display: flex;
-
-  
+    
+    
+    
 }
 
-.lista2 a {
-    font-size: 10px;
-    width: 200px;
-    position: relative;
-    top: 10px;  
+
+.noticia1 {
+ 
+    display:inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+}
+.noticia2 {
+ 
+    display:inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+}
+.noticia3 {
+ 
+    display:inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+}
+.noticia4 {
+ 
+    display:inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 10px;
+       margin-bottom: 32px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+}
+
+
+.noticia1:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.noticia2:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.noticia3:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.noticia4:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+footer {
+    width: 1920px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+}
+ 
+.rodape {
     display: flex;
+    margin-top: 20px;
+    background-color: black;
+    padding: 30px;
+    margin-top: 30px;
+    align-items: center;
+    
 }
 
-.foto-rodape {
-    margin-left: 200px;
-}
-
-.itens-rodape p {
-    color: silver;
-    font-size: 20px;
-    width: 400px;
+.rodape a {
+    color: white;
+    text-decoration: none;
     text-transform: uppercase;
-    right: 350px;
-    position: relative;
-    top: 130px;
+   
 }
 
+.rodape img {
+    width: 150px;
+    margin-left: 300px;
+}
 
+.rodape1 {
+    display: column;
+}
+.rodape2 {
+    display: column;
+    margin-left:200px;
+    
 
-.sobre-rodape {
-    color:white;
+}
+.rodape1 {
+    display: column;
+}
+.rodape1 {
+    display: column;
+}
+
+.sobre {
+    margin-left:300px;
     font-size: 20px;
-    margin-left: 200px;
-    position: relative;
-    left: 100px;
-    width: 400px;
-  
+    
 }
 
-.sobre-rodape a {
-    display: flex;
+.sobre p {
+    color: silver;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
     position: relative;
-    right: 130px;
-    width: 300px;
-
+    right: 60px;
 }
-
-
-
-
-.enviar {
-    position: relative;
-    right: 300px;
-    top: 30px;
-}
-
 
 input {
-    position: relative;
-    right: 200px;
-    width: 300px;
-    padding: 10px;
     border-radius: 8px;
-    border: 1px;
-    top: 55px;
+    position: relative;
+    top: 10px;
+    right: 30px;
 }
-
 
 button {
-    display: flex;
-    position: relative;
-    left: 1730px;
-    top: -112px;
-    width: 100px;
-    padding: 10px;
+    border: 1px solid;
     border-radius: 8px;
-    border: 1px;
+    position: relative;
+    right: 30px;
+    top: 10px;
+    
 }
-
-
- 
- 
-
 
 
 @media screen and (max-width: 1200px) {
@@ -282,6 +377,11 @@ button {
         flex-direction: column;
         
     }
+    .banner-ativo{
+        width: 1500px;
+        height: 400px;  
+    }
+ 
 
     .link-click {
         position: relative;
@@ -294,6 +394,11 @@ button {
 
     .plataformas a {
         margin: 0 95px;
+    }
+
+
+    .noticias {
+        width: 1500px;
     }
 
     footer {
@@ -311,44 +416,98 @@ button {
 
 @media screen and (max-width: 768px){
     header{
-        width: 1280px;
+        width: 1440px;
     }
     .foto-logo {
         width: 500px;
     }
-    .menu {
-        display: none;
-        flex-direction: column;
-    }
+   .menu {
+       display: none;
+       flex-direction: column;
+       position: absolute;
+       right: 30px;
+     
+   }
+
+.menu a {
+    position: relative;
+    right: 415px;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    width: 140px;
+    margin-top: 5px;
+ 
+
+}
+
+
     .menu-barras {
         display: flex;
         width: 80px;
-        position: absolute;
-        right: 30px;
-        top: 40px;
+        position: relative;
+        left: 800px;
+        top: -70px;
         
     }
 
+
+
+    .texto-banner {
+        position:absolute;
+     
+      
+        display: none;
+            
+    }
     
     .banner {
-        width: 1280px;
+        width: 1400px;
     }
 
-    .link-click {
-        position: relative;
-        right: 200px;
+    .banner-ativo{
+        width: 1440px;
+        height: 400px;  
     }
-      
+
+    .link-click{
+        
+        border-radius: 8px;
+    }
+       
+
+    .link-click a {
+        position: absolute;
+        left: 500px;
+        
+    }
+
+
     .plataformas {
-        width: 1280px;
+        width: 1440px;
+        display: none;
     }
 
     .plataformas img {
         width: 40px;
     }
+    .titulo{
+        position: relative;
+        top: 200px;
+        left: 340px;
+       
+    }
+    .noticias {
+        width: 1440px;
+        margin-top: 300px;
+        
+    }
 
     footer {
-        width: 1280px;
+        position: relative;
+        width: 1440px;
+        top: 200px;
     
        
     }
@@ -356,9 +515,158 @@ button {
 
   #rodape-mestre a {
       font-size: 12px;
-      position: relative;
+      position: absolute;
       top: 10px;
 
   }
+  .menu-ativo {
+      display: flex;
+  }
   
 }
+
+
+
+/* *PÁGINA CADASTRO */
+
+#cadastro-global {
+ display: flex;
+ height: 50vh;
+ position: relative;
+ top: -100px;
+}
+
+aside {
+    display: flex;
+    flex: 5;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 300px;
+    border-style:solid;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+    height: 400px;
+    margin-top: 100px;
+    border: 1px solid;
+    background-color: #04A596;
+}
+
+aside h2 {
+    color: white;
+}
+
+
+
+main {
+    display: flex;
+    flex: 5;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 300px;
+    border-style:solid;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+    height: 400px;
+    margin-top: 100px;
+    border: 1px solid;
+    background-color: silver;
+    
+}
+
+main h2 {
+    color: white;
+}
+
+
+
+.login p {
+    color: white;
+    font-size: 16px;
+}
+
+.login input {
+    width: 400px;
+    padding: 9px;
+    border-radius: 0px;
+    border: 1px solid;
+}
+
+.acessar {
+    display: flex;
+}
+
+.acessar button {
+    width: 100px;
+    padding: 8px;
+    height: 40px;
+    border-radius: 0px;
+    position: relative;
+    top: 30px;
+    left: 115px;
+    cursor: pointer;
+}
+
+.acessar button:hover{
+    transform: scale(1.2);
+    
+}
+
+.acessar input {
+    position: relative;
+    top: 42px;
+    right: 65px;
+}
+
+.acessar p {
+    position: relative;
+    right: 250px;
+    top: 9px;
+    font-size: 12px;
+    color: white;
+}
+
+.acessar a {
+    position: relative;
+    top: 34px;
+    right: 220px;
+    text-decoration: none;
+    color: #04A596;
+}
+
+
+.cadastro p {
+    color: white;
+    font-size: 16px;
+}
+
+.cadastro input {
+    width: 400px;
+    padding: 9px;
+    border-radius: 0px;
+    border: 1px solid;
+}
+
+.cadastrar button {
+    width: 130px;
+    position: relative;
+    right: 165px;
+    border-radius: 0px;
+    top: 30px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.cadastrar:hover {
+    transform: scale(1.2);
+}
+
